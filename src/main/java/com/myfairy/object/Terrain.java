@@ -1,4 +1,4 @@
-
+package com.myfairy.object;
 final public class Terrain{
   final private String name;
   final private int sizeBeauty;

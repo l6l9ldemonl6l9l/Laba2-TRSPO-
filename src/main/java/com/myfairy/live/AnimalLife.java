@@ -1,6 +1,14 @@
+package com.myfairy.live;
+
+import com.myfairy.object.Crow;
+import com.myfairy.object.Food;
+import com.myfairy.object.Fox;
+import com.myfairy.object.Terrain;
+import com.myfairy.status.Status;
 
 import java.util.UUID;
 
+//@Service
 final public class AnimalLife{
   private final UUID id;
   final private Fox fox;
@@ -66,4 +74,5 @@ final public class AnimalLife{
     if (status==Status.foxEating){System.out.println("Статус: Лиса ест.\n");}
     if (status==Status.crowEating){System.out.println("Сатус: Ворнона ест.\n");}
   }
+
 }

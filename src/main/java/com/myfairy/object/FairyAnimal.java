@@ -1,3 +1,4 @@
+package com.myfairy.object;
 import java.util.Date;
 
 public class FairyAnimal{

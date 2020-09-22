@@ -1,6 +1,10 @@
+/*package com.myfairy;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Date;
 import java.util.Scanner;
 
+@SpringBootApplication
 public class Test {
   public static void main(String[] args) {
     Date date1= new Date();
@@ -50,3 +54,4 @@ public class Test {
     fairyStory.showInformation();
   }
 }
+*/

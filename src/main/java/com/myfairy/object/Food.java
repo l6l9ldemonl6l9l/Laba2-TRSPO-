@@ -1,4 +1,4 @@
-
+package com.myfairy.object;
 import java.util.Date;
 import java.util.UUID;
 

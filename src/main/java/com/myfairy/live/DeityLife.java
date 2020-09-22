@@ -1,7 +1,13 @@
+package com.myfairy.live;
+
+import com.myfairy.object.Deity;
+import com.myfairy.object.Food;
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.UUID;
 
+//@Service
 final public class DeityLife extends Date{
   private final HashMap<UUID, AnimalLife> animalsLife = new HashMap<>();
   private final HashMap<UUID, Food> foods = new HashMap<>();
