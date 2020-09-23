@@ -1,4 +1,4 @@
-package com.myfairy.object;
+package com.example.myfairy.object;
 import java.util.Date;
 
 final public class Crow extends FairyAnimal {

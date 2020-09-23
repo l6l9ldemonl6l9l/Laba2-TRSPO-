@@ -1,10 +1,10 @@
-package com.myfairy.live;
+package com.example.myfairy.live;
 
-import com.myfairy.object.Crow;
-import com.myfairy.object.Food;
-import com.myfairy.object.Fox;
-import com.myfairy.object.Terrain;
-import com.myfairy.status.Status;
+import com.example.myfairy.live.status.Status;
+import com.example.myfairy.object.Fox;
+import com.example.myfairy.subject.Food;
+import com.example.myfairy.subject.Terrain;
+import com.example.myfairy.object.Crow;
 
 import java.util.UUID;
 

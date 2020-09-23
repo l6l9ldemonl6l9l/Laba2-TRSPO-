@@ -1,7 +1,10 @@
-package com.myfairy.object;
+package com.example.myfairy.object;
+
 import java.util.Date;
+import java.util.UUID;
 
 public class FairyAnimal{
+  final private UUID id;
   final private String name;
   private Date lastLunchTime;
   private int energy;
@@ -10,6 +13,11 @@ public class FairyAnimal{
     this.name = name;
     this.lastLunchTime = lastLunchTime;
     this.energy = energy;
+    this.id=UUID.randomUUID();
+  }
+
+  public String getName(){
+    return name;
   }
 
   public void fatigue(){

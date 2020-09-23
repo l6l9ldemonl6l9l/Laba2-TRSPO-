@@ -1,4 +1,4 @@
-package com.myfairy.status;
+package com.example.myfairy.live.status;
 
 public enum Status{
   noEating,

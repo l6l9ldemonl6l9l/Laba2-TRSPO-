@@ -1,7 +1,7 @@
-package com.myfairy.live;
+package com.example.myfairy.live;
 
-import com.myfairy.object.Deity;
-import com.myfairy.object.Food;
+import com.example.myfairy.subject.Food;
+import com.example.myfairy.object.Deity;
 
 import java.util.Date;
 import java.util.HashMap;
