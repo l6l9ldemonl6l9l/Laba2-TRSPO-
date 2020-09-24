@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Fairy Story</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <p th:text="'Hello!'" />
+        <div>Список Сообщений</div>
+        {{#messages}}
+        <div>
+            <b>{{id}}</b>
+            <b>{{text}}</b>
+            <i>{{teg}}</i>
+        </div>
+        {{/messages}}
+    </body>
+</html>
