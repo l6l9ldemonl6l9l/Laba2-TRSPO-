@@ -1,4 +1,4 @@
-package com.example.story.controllers;
+/*package com.example.story.controllers;
 
 import com.example.story.object.Deity;
 import com.example.story.repos.DeityRepo;
@@ -45,4 +45,4 @@ public class DeityController {
     }
 }
 
-
+*/

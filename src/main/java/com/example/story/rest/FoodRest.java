@@ -19,17 +19,17 @@ public class FoodRest {
     }
 
     @PostMapping("/Foods")
-    public ResponseEntity<String> newClient(@RequestParam String kindFood) {
+    public ResponseEntity<String> newFood(@RequestParam String kindFood) {
         try{
             FoodController.createFood(kindFood);
         }
         catch (IllegalArgumentException e){
-            return new ResponseEntity<>("Bad Request: " + e.getMessage(), HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("Bad Request1: " + e.getMessage(), HttpStatus.BAD_REQUEST);
         }
         catch(Exception e ){
-            return new ResponseEntity<>("Server Error: " + e, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>("Server Error1: " + e, HttpStatus.INTERNAL_SERVER_ERROR);
         }
-        return new ResponseEntity<>("Created", HttpStatus.CREATED);
+        return new ResponseEntity<>("Created1", HttpStatus.CREATED);
     }
 
     @GetMapping(value = "/Foods",produces = MediaType.APPLICATION_JSON_VALUE)

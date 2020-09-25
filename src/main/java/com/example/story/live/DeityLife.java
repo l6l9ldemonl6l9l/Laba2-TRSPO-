@@ -1,4 +1,4 @@
-/*package com.example.story.live;
+package com.example.story.live;
 
 import com.example.story.subject.Food;
 import com.example.story.object.Deity;
@@ -7,7 +7,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.UUID;
 
-@Service
 final public class DeityLife extends Date{
   private final HashMap<UUID, AnimalLife> animalsLife = new HashMap<>();
   private final HashMap<UUID, Food> foods = new HashMap<>();
@@ -102,4 +101,3 @@ final public class DeityLife extends Date{
     animals.toString(animals.getStatus());
   }
 }
-*/

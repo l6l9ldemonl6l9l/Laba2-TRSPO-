@@ -16,15 +16,12 @@ public class CrowController {
         this.crowsRepo = crowsRepo;
     }
 
-    public void createCrow(String name) {
+    public void createCrow(String name, int energy, int sizeMind ) {
         if(checkExistByName(name))
             throw new IllegalArgumentException("This name number already exists");
-        int energy=10;
-        int sizeMind=20;
         Date date= new Date();
         Crow crow= new Crow(name, date, energy,sizeMind);
         crowsRepo.save(crow);
-
         System.out.println("\u001B[33m" + "New crow"+ crow.getName() +" added" + "\u001B[0m");
     }
 

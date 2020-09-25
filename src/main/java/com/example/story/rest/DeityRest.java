@@ -1,4 +1,4 @@
-package com.example.story.rest;
+/*package com.example.story.rest;
 
 import com.example.story.controllers.DeityController;
 import com.example.story.object.Deity;
@@ -46,4 +46,4 @@ public class DeityRest {
         }
         return new ResponseEntity<>(foundDeity, HttpStatus.OK);
     }
-}
+}*/

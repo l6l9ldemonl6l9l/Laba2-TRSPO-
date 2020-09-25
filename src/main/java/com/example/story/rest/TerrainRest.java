@@ -1,4 +1,4 @@
-package com.example.story.rest;
+/*package com.example.story.rest;
 
 import com.example.story.controllers.TerrainController;
 import com.example.story.subject.Terrain;
@@ -47,3 +47,4 @@ public class TerrainRest {
         return new ResponseEntity<>(foundTerrain, HttpStatus.OK);
     }
 }
+*/

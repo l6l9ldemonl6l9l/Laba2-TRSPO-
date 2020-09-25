@@ -1,4 +1,4 @@
-package com.example.story.controllers;
+/*package com.example.story.controllers;
 
 import com.example.story.subject.Terrain;
 import com.example.story.repos.TerrainRepo;
@@ -43,5 +43,5 @@ public class TerrainController {
         return terrainRepo.existsByName(name);
     }
 }
-
+*/
 

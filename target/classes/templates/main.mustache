@@ -1,0 +1,83 @@
+<html>
+
+<body>
+<div>
+    <p>Добавить меседж --></p>
+    <form method="post">
+        <input type="text" name="text" placeholder="Введите сообщение" />
+        <input type="text" name="tag" placeholder="Тэг">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+
+<div>
+    <p>Добавить Ворону --></p>
+    <form method="postCrow">
+        <input type="text" name="name" placeholder="Введите имя" />
+        <input type="int"  energy="energy" placeholder="Введите енргию">
+        <input type="int"  sizeMind="sizeMind" placeholder="Введите IQ">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<!--
+<div>
+    <p>Добавить Лису -></p>
+    <form method="postFox">
+        <input type="text" name="text" placeholder="Введите сообщение" />
+        <input type="text" name="tag" placeholder="Тэг">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<div>
+    <p>Добавить Сказочника -></p>
+    <form method="postDeity">
+        <input type="text" name="text" placeholder="Введите сообщение" />
+        <input type="text" name="tag" placeholder="Тэг">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<div>
+    <p>Добавить еду -></p>
+    <form method="postFood">
+        <input type="text" name="text" placeholder="Введите сообщение" />
+        <input type="text" name="tag" placeholder="Тэг">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<div>
+    <p>Добавить сказочное место -></p>
+    <form method="postTerrain">
+        <input type="text" name="text" placeholder="Введите сообщение" />
+        <input type="text" name="tag" placeholder="Тэг">
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+-->
+<div>Список сообщений</div>
+<form method="post" action="filter">
+    <input type="text" name="filter">
+    <button type="submit">Найти</button>
+</form>
+{{#messages}}
+    <div>
+        <b>{{id}}</b>
+        <span>{{text}}</span>
+        <i>{{tag}}</i>
+    </div>
+{{/messages}}
+</body>
+
+<div>Список Ворон</div>
+<form method="postGet" action="crowsGet">
+    <input type="name" name="name">
+    <button type="submit">Найти</button>
+</form>
+{{#crows}}
+    <div>
+        <span>{{name}}</span>
+        <i>{{energy}}</i>
+        <i>{{sizeMind}}</i>
+    </div>
+{{/crows}}
+</body>
+</html>

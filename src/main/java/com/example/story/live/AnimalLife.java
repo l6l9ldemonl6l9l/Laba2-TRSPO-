@@ -1,4 +1,4 @@
-/*package com.example.story.live;
+package com.example.story.live;
 
 import org.springframework.stereotype.Service;
 import com.example.story.status.Status;
@@ -9,7 +9,6 @@ import com.example.story.object.Crow;
 
 import java.util.UUID;
 
-@Service
 final public class AnimalLife{
   private final UUID id;
   final private Fox fox;
@@ -76,4 +75,4 @@ final public class AnimalLife{
     if (status==Status.crowEating){System.out.println("Сатус: Ворнона ест.\n");}
   }
 
-}*/
+}

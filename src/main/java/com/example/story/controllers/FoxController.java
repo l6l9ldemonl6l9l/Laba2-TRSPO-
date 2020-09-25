@@ -1,4 +1,4 @@
-package com.example.story.controllers;
+/*package com.example.story.controllers;
 
 import com.example.story.object.Fox;
 import com.example.story.repos.FoxsRepo;
@@ -46,4 +46,4 @@ public class FoxController {
         return foxsRepo.existsByName(name);
     }
 }
-
+*/

@@ -1,4 +1,4 @@
-package com.example.story.rest;
+/*package com.example.story.rest;
 
 import com.example.story.controllers.FoxController;
 import com.example.story.object.Fox;
@@ -47,3 +47,4 @@ public class FoxRest {
         return new ResponseEntity<>(foundFox, HttpStatus.OK);
     }
 }
+*/
