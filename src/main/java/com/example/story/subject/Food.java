@@ -27,6 +27,9 @@ final public class Food{
   public int getTaste() {
     return taste;
   }
+  public String getKindFood() {
+    return kindFood;
+  }
 
   public void showInformationAboutFood(){
     System.out.println("Еда : "+ kindFood + ". Дата создания: "+ birthday+". Вкус: "+ taste +".\n");

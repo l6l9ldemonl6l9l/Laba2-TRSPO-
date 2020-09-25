@@ -19,6 +19,7 @@ final public class Deity{
     this.age = age;
     this.id=UUID.randomUUID();
   }
+  public String getName(){ return name; }
 
   public void showInformationAboutAuthor(){
     System.out.println("Автор:"+name+". Дата рождения:"+age+".\n");

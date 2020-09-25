@@ -32,7 +32,7 @@ public class CrowController {
         List<Crow> foundCrows = crowsRepo.findByName(name);
 
         if(foundCrows.size() == 0){
-            throw new IllegalArgumentException("crow not found");
+            throw new IllegalArgumentException("Crow not found");
         }
 
         return foundCrows.get(0);

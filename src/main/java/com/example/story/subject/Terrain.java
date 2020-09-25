@@ -20,6 +20,9 @@ final public class Terrain{
   public int getSizeBeauty(){
     return sizeBeauty;
   }
+  public String getName() {
+    return name;
+  }
 
   public void showInformationAboutTerrain(){
     System.out.print("Месность :"+name+". Красота:");
